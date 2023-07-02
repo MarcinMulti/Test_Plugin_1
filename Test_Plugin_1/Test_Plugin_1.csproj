@@ -15,7 +15,6 @@
   <ItemGroup>
     <Folder Include="methods\" />
     <Folder Include="deconstructors\" />
-    <Folder Include="constructors\" />
   </ItemGroup>
   
   <PropertyGroup Condition="$(Configuration) == 'Debug' AND $([MSBuild]::IsOSPlatform(Windows))">
